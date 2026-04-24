@@ -642,9 +642,6 @@ p.body strong { color: var(--ink); font-weight: 500; }
   object-fit: contain;
   opacity: 1;
   margin-top: 2px;
-  background: white;
-  border-radius: 6px;
-  padding: 4px;
 }
 .event .eorg-content {
   min-width: 0;
