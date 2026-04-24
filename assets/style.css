@@ -1,4 +1,9 @@
-
+/* ============================================================
+   VK Site. White-dominant with lavender accents and selective
+   purple emphasis. 50% white, 40% lavender, 10% purple.
+   Tulips only appear on non-work pages (handled in HTML).
+   No em dashes anywhere.
+   ============================================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=JetBrains+Mono:wght@400;500&display=swap');
 
@@ -651,7 +656,7 @@ p.body strong { color: var(--ink); font-weight: 500; }
   .event .eorg-logo { width: 60px; height: 60px; }
 }
 
-/* Round logo treatment on the Academia page only */
+/* Square logo treatment on the Academia page only */
 body.page-academia .event .eorg {
   grid-template-columns: 160px 1fr;
   gap: 32px;
@@ -662,7 +667,6 @@ body.page-academia .event .eorg-logo {
   height: 140px;
   min-height: 140px;
   max-height: 140px;
-  border-radius: 50%;
   object-fit: cover;
   object-position: center center;
   background: white;
